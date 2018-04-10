@@ -6,24 +6,20 @@ Ts = 5E-6;
 drivefreq = 30e3; % The frequency of the drive
 
 %Initiation
-winit=-175;
+winit=-185;
 
 % Wind Turbine Parameters
 Prated =2750000;
 
 R = 51.5; % m
 p = 1.225; % air density kg/m3,
-windspeed = 13; %m/s
+windspeed = 10; %m/s
 windrated = 13; %m/s
 Jtur= 13e6; %kgm2   %Updated
 wrated=(2*pi*1735)/60;
-wmax=2*pi*(1735/60);
+wmax=2*pi*(
 %Gear Ratio
 gear = 117.4 ;
-
-%MPPT Speed
-%If the B=0
-wMPPT=(8.1*windspeed*gear)/R;
 
 %Generator Parameters 
 Jgen = 115; %kgm2
