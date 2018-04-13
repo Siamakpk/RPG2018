@@ -3,8 +3,8 @@ clc
 
 %Sample Time
 Ts = 5E-6;
-drivefreq = 30e3; % The frequency of the drive
-
+drivefreq = 3e3; % The frequency of the drive
+fnom=50;
 %Initiation
 winit=-175;
 
@@ -13,7 +13,7 @@ Prated =2750000;
 
 R = 51.5; % m
 p = 1.225; % air density kg/m3,
-windspeed = 13; %m/s
+windspeed = 9; %m/s
 windrated = 13; %m/s
 Jtur= 13e6; %kgm2   %Updated
 wrated=(2*pi*1735)/60;
@@ -48,7 +48,7 @@ Lfilter=2e-4;
 %Inertia Support
 H=5.6; %seconds
 fnom=50;
-suptime=10;
+suptime=100;
 
 
 
